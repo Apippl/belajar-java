@@ -17,21 +17,21 @@ public class datapasien {
         input.nextLine();
 
         System.out.print("Nama Pasien : ");
-        Nama_Pasien = input.next();
-        input.nextLine();
+        Nama_Pasien = input.nextLine();
 
         System.out.print("tanggal kedatangan : ");
-        tanggal_kedatangan = input.next();
+        tanggal_kedatangan = input.nextLine();
 
+        
         System.out.print("Alamat : ");
-        alamat = input.next();
+        alamat = input.nextLine();
+    
 
         System.out.print("Keluhan : ");
-        keluhan = input.next();
-
+        keluhan = input.nextLine();
         //menampilkan data pasien
 
-        System.out.println("DATA PASIEN");
+        System.out.println("\nDATA PASIEN");
         System.out.println("----------");
         System.out.println("ID Pasien :  " + ID_Pasien);
         System.out.println("Nama Pasien : " + Nama_Pasien);

@@ -10,17 +10,13 @@ public class latihan5 {
 
         System.out.println("DATA SISWA");
         System.out.println("----------");
-
         System.out.print("NISN : ");
         NISN = Input.nextInt();
-        Input.nextLine(); // Mengkonsumsi karakter newline setelah nextInt()
-
+        Input.nextLine();
         System.out.print("Nama : ");
-        Nama = Input.nextLine(); // Memungkinkan dua kata dalam satu input
-
+        Nama = Input.nextLine(); 
         System.out.print("Alamat : ");
         Alamat = Input.next();
-
         System.out.print("Usia : ");
         Usia = Input.nextInt();
 
